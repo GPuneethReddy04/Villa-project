@@ -1,17 +1,22 @@
-body{
-    height:1800px;
+body {
+    height: 1800px;
     /* width: 1150px; */
 }
-.fa-brands:hover{
+
+.fa-brands:hover {
     color: #ff5f1f !important;
 }
-.fa-brands{
-    margin-left: 10px;;
+
+.fa-brands {
+    margin-left: 10px;
+    
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #ff5f1f !important;
 
 }
+
 .contact {
     margin-top: 50px;
 }
@@ -20,7 +25,7 @@ body{
     width: 1280px
 }
 
-.box{
+.box {
     position: absolute;
     margin-top: -200px;
     margin-left: 500px;
@@ -28,59 +33,69 @@ body{
     background-color: white;
     width: 180px;
 }
-.pro{
+
+.pro {
     margin-top: -150px;
     margin-left: 500px;
 }
+
 /* Countact us */
 
-  .agent {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr; /* Left vs right column size */
-  gap: 40px;
-  margin: 100px 80px;
-  align-items: center;
-  
-}
-.form .card {
-  width: 100% !important;
-  max-width: 900px; 
-  margin: auto;
+.agent {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    /* Left vs right column size */
+    gap: 40px;
+    margin: 100px 80px;
+    align-items: center;
+
 }
 
-.get{
+.form .card {
+    width: 100% !important;
+    max-width: 900px;
+    margin: auto;
+}
+
+.get {
     font-weight: bold;
     font-size: xx-large;
 }
 
-.contact-info-box{
-  display:flex;
-   align-items:center;
-    gap:10px;
-  background:#f8f7f7; border-radius:14px; border:1px solid #eee;
-  box-shadow:0 8px 24px rgba(0,0,0,.06);
-  padding:10px;
-   height:100px;
-   width: 250px;
-   justify-content: left;
-   margin-left: 50px;
+.contact-info-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f8f7f7;
+    border-radius: 14px;
+    border: 1px solid #eee;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .06);
+    padding: 10px;
+    height: 100px;
+    width: 250px;
+    justify-content: left;
+    margin-left: 50px;
 }
 
-/* .img-fluid{
-    margin-bottom: 80px;
-} */
 
-.contact-info-box h6{ margin:0; font-weight:700; }
-.contact-info-box small{ color:#8b8b8b; }
-/* .row{
-    width:800px;
-} */
-.map{
+
+.contact-info-box h6 {
+    margin: 0;
+    font-weight: 700;
+}
+
+.contact-info-box small {
+    color: #8b8b8b;
+}
+
+
+.map {
     margin-top: 100px;
     margin-left: 100px;
-    width:900px;
+    width: 900px;
 }
-footer{
+
+footer {
     background-color: black;
     margin-top: 220px;
     color: white;
