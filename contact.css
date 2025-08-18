@@ -23,7 +23,7 @@ body{
 .box{
     position: absolute;
     margin-top: -200px;
-    margin-left: 200px;
+    margin-left: 500px;
     text-align: center;
     background-color: white;
     width: 180px;
@@ -33,36 +33,42 @@ body{
     margin-left: 500px;
 }
 /* Countact us */
-.agent{
-    display: grid;
-    /* flex-wrap: wrap; */
-    grid-template-columns: repeat(2,1fr);
-    margin-top: 200px;
-    margin-left: 80px;
+
+  .agent {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr; /* Left vs right column size */
+  gap: 40px;
+  margin: 100px 80px;
+  align-items: center;
+  
 }
+.form .card {
+  width: 100% !important;
+  max-width: 900px; 
+  margin: auto;
+}
+
 .get{
     font-weight: bold;
     font-size: xx-large;
 }
-.form{
-    margin-left: 70px;
-}
+
 .contact-info-box{
   display:flex;
    align-items:center;
-    /* gap:10px; */
+    gap:10px;
   background:#f8f7f7; border-radius:14px; border:1px solid #eee;
   box-shadow:0 8px 24px rgba(0,0,0,.06);
   padding:10px;
    height:100px;
    width: 250px;
-   /* justify-content: left; */
+   justify-content: left;
    margin-left: 50px;
 }
-.img-fluid{
-    margin-bottom: 100px;
-}
 
+/* .img-fluid{
+    margin-bottom: 80px;
+} */
 
 .contact-info-box h6{ margin:0; font-weight:700; }
 .contact-info-box small{ color:#8b8b8b; }
