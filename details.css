@@ -1,0 +1,20 @@
+.property {
+    margin-top: 150px;
+}
+
+[src *=page-heading] {
+    width: 1280px
+}
+
+.box{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 500px;
+    text-align: center;
+    background-color: white;
+    width: 150px;
+}
+.pro{
+    margin-top: -150px;
+    margin-left: 500px;
+}

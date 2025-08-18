@@ -1,0 +1,403 @@
+body{
+    height: 6100px;
+}
+.fa-brands:hover{
+    color: #ff5f1f !important;
+}
+.fa-brands{
+    margin-left: 10px;;
+}
+.nav-link:hover{
+    color: #ff5f1f !important;
+
+}
+[src *= featured]{
+    height: 450px;
+    margin-top:150px ;
+    padding-left:100px ;
+}
+.box{
+    position: absolute;
+    top:200px;
+    margin-left: 260px;
+    text-align: center;
+    background-color: white;
+    width: 150px;
+}
+.canada{
+    color: #ff5f1f;
+    height: 100px;
+}
+.first-text{
+    position: absolute;
+    color:white;
+    top:230px;
+    padding-left: 260px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.card{
+    margin-top: 150px;
+}
+.accordion-button ::after{
+    display: none !important;
+}
+[src *= info-icon]{
+    margin-right:80px;
+    margin-top: 20px;
+}
+.home-pen{
+    /* margin-left: 10px; */
+    border-radius: 500px;
+    width: 550px;
+    height: 300px;
+    background-color: #ff5f1f; 
+}
+.card-header{
+    padding-left: 1px !important;
+    color: #ff5f1f !important;
+    font-weight: bold;
+}
+.vr{
+    width: 5px;
+}
+.value-space{
+    /* display: inline-block; */
+    margin-left: 90px;
+    margin-top: -40px;
+    color: gray;
+}
+.value{
+    display: inline-block;
+    margin-left: -60px;
+    font-weight:bold ;
+}
+.value-spaces{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: -100px;
+    color: gray;
+}
+.value-control{
+    display: inline-block;
+    font-size: 13px;
+    color: gray;
+    margin-left: 90px;
+}
+.accordion-button:not(.colapsed){
+    color: #ff5f1f;
+
+}
+.img-fluid{
+    margin-top: 110px;
+}
+.img-text{
+    position: absolute;
+    margin-top: 200px;
+    padding-left: 600px;
+    color: #ff5f1f;
+}
+.vr{
+    width: 5px !important;
+}
+.img-text1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -25%;
+}
+/* .frame1{
+    height: 50px !important;
+    width: 50px !important;
+    position: relative;
+    border-radius: 20px;
+} */
+.img-video img{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -10%;
+    width: 80%;
+    height: 60%;
+    border-radius: 1%;
+}
+.play{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 5%;
+   
+}
+.round{
+    margin-left: 49%;
+}
+.play span{
+    height: 30%;
+    width: 20%;
+    color: black;
+}
+#button-data{
+    margin-top: 30%;
+    margin-left: 10%;
+    background-color: rgb(240, 199, 199) !important;
+    width: 20%;
+    height: 5%;
+}
+.num1{
+    font-weight: bolder ;
+    font-size: 200%;
+    margin-right: 5%;  
+    color: #ff5f1f; 
+}
+.building1{
+    color: black; 
+    margin-left: 0%;
+    font-weight: bold;
+}
+.building2{
+    position: relative;
+    color: black;
+    margin-left: 25%;
+    font-weight: bold;
+}
+#button-data2{
+    margin-top: 30%;
+    margin-left: 10%;
+    background-color: rgb(240, 199, 199) !important;
+    width: 15%;
+    height: 5%;
+}
+.year{
+    color: black; 
+    margin-right: 0%;
+    font-weight: bold;
+}
+.num2{
+    font-weight: bolder ;
+    font-size: 200%;
+    margin-right: 10%;  
+    color: #ff5f1f; 
+}
+#button-data3{
+    margin-top: 30%;
+    margin-left: 10%;
+    background-color: rgb(240, 199, 199) !important;
+    width: 15%;
+    height: 5%;
+}
+.num3{
+    font-weight: bolder ;
+    font-size: 200%;
+    margin-right: 10%;  
+    color: #ff5f1f; 
+}
+
+/* .bot1{
+    margin-left: 90%;
+    margin-top: 10px;
+} */
+.deal{
+    margin-top: 200px;
+    font-weight: bold;
+    color:#ff5f1f
+}
+.best{
+    font-size: 150%;
+    font-weight: bold;
+    color: black;
+}
+.but{
+    outline-color: #ff5f1f;
+    border-radius: 5%;
+    margin-left: 50%;
+    
+}
+.but .app,.but .app:hover{
+    color: white;
+     background-color: #ff5f1f;
+    
+}
+.but .villa,.but .villa:hover{
+    margin-right: 10px;
+    background-color: black;
+    color:white
+}
+.but .house,
+.but .house:hover{
+    margin-right: 10px;
+    background-color: black;
+    color:white
+}
+.card3{
+    margin-top: 50px;
+    border: none; /* remove bootstrap border */
+    border-radius: 15px; /* rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* subtle shadow */
+    padding: 1rem; /* add space inside card */
+}
+.items{
+    color: gray;
+}
+.itemvalue{
+    color:black;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.list-group-item{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.deal1{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 450px;
+    height: 400px;
+}
+.info{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.info-data{
+    margin-left: 40px;
+    text-align: left;
+    display: flex;
+    width:300px
+    
+
+}
+.card3 .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imge{
+    margin-top: 150px;
+}
+.sec1{
+    color: #ff5f1f;
+}
+.sec2{
+    text-align: center;
+}
+
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    gap: 10px;
+    border: 0px;
+    
+}
+.img-top{
+    margin: 20px;
+    
+}
+.card-img-top{
+    border-radius: 20px;
+}
+.card-villa{
+    background-color: rgb(250, 198, 177);
+    text-align: start;
+    padding: 8px;
+    border-radius: 3px;
+}
+.price{
+    margin-left: 150px;
+    font-weight: bold;
+    color: #ff5f1f;
+   
+}
+.text{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.num{
+    font-weight: bold;
+    margin-right: 20px;
+}
+.visit{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.sch{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+.contact{
+    height:500px;
+    width: 1265px;
+    margin-top: 100px;
+}
+.contact1{
+    margin-top: -400px;
+    text-align: center;
+    color: #ff5f1f;
+}
+.contact2{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: x-large;
+}
+.map{
+    margin-top: 100px;
+    margin-left: 60px;
+    width:100px;
+}
+.form{
+    margin-top: -600px;
+    margin-right: 100px;
+}
+.btn-dark:hover{
+    background-color: #ff5f1f;
+}
+/* .number{
+    margin-left: 100px;
+    
+} */
+/* .card-body{
+    border:1px solid;
+    border-width: 10px;
+
+} */
+ /* .phone-icon{
+    margin-right:130px;
+ }
+ .numbers{
+    margin-left: 100px;
+    margin-top: -50px;
+ }
+ .phone-card{
+    background-color: white;
+    margin-left: 30px;
+    margin-top: -30px;
+    border-color: white;
+ } */
+  .number-body{
+    margin-left: 50px;
+  }
+  .row{
+    margin-left: 10px;
+  }
+  /* .foot{
+    background-color: black;
+  }
+  .foot-data{
+    color: white;
+    margin-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  } */
+   footer {
+      margin-top: 100px;
+      padding: 20px 0;
+      background: black;
+      color:white;
+}

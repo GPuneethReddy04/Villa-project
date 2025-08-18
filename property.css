@@ -1,0 +1,118 @@
+body{
+    height: 2500px;
+}
+.fa-brands:hover{
+    color: #ff5f1f !important;
+}
+.fa-brands{
+    margin-left: 10px;;
+}
+.nav-link:hover{
+    color: #ff5f1f !important;
+
+}
+.property {
+    margin-top: 50px;
+}
+
+[src *=page-heading] {
+    width: 1280px
+}
+
+.box{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 500px;
+    text-align: center;
+    background-color: white;
+    width: 150px;
+}
+.pro{
+    margin-top: -150px;
+    margin-left: 500px;
+}
+.best{
+    margin-top: 200px;
+    margin-right: 350px;
+}
+.but{
+    outline-color: #ff5f1f;
+    border-radius: 5%;
+    margin-left: 50%;
+   
+    
+}
+.but .app,.but .app:hover{
+    color: white;
+     background-color: #ff5f1f;
+    
+}
+.but .villa,.but .villa:hover{
+    margin-right: 10px;
+    background-color: black;
+    color:white
+}
+.but .house,
+.but .house:hover{
+    margin-right: 10px;
+    background-color: black;
+    color:white
+}
+.imge{
+    margin-top: 100px;
+}
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    gap: 10px;
+    border: 0px;
+    
+}
+.img-top{
+    margin: 20px;
+    
+}
+.card-img-top{
+    border-radius: 20px;
+}
+.card-villa{
+    background-color: rgb(250, 198, 177);
+    text-align: start;
+    padding: 8px;
+    border-radius: 3px;
+}
+.price{
+    margin-left: 150px;
+    font-weight: bold;
+    color: #ff5f1f;
+   
+}
+.text{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.num{
+    font-weight: bold;
+    margin-right: 20px;
+}
+.visit{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.sch{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+footer {
+      margin-top: 140px;
+      padding: 20px 0;
+      background: black;
+      color:white;
+}
