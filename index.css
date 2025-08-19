@@ -115,11 +115,12 @@ body{
 .img-video img{
     position: absolute;
     margin-left: 10%;
-    margin-top: -10%;
+    margin-top: -20%;
     width: 80%;
     height: 60%;
     border-radius: 1%;
 }
+
 .play{
     position: absolute;
     margin-left: 50%;
