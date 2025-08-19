@@ -1,16 +1,21 @@
-body{
+body {
     height: 2500px;
 }
-.fa-brands:hover{
+
+.fa-brands:hover {
     color: #ff5f1f !important;
 }
-.fa-brands{
-    margin-left: 10px;;
+
+.fa-brands {
+    margin-left: 10px;
+    ;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #ff5f1f !important;
 
 }
+
 .property {
     margin-top: 50px;
 }
@@ -19,7 +24,7 @@ body{
     width: 1280px
 }
 
-.box{
+.box {
     position: absolute;
     margin-top: -200px;
     margin-left: 500px;
@@ -27,82 +32,100 @@ body{
     background-color: white;
     width: 150px;
 }
-.pro{
+
+.pro {
     margin-top: -150px;
     margin-left: 500px;
 }
-.best{
+
+.best {
     margin-top: 200px;
     margin-right: 350px;
 }
-.but{
+
+.but {
     outline-color: #ff5f1f;
     border-radius: 5%;
     margin-left: 50%;
-   
-    
+
+
 }
-.but .app,.but .app:hover{
+
+.but .app,
+.but .app:hover {
     color: white;
-     background-color: #ff5f1f;
-    
+    background-color: #ff5f1f;
+
 }
-.but .villa,.but .villa:hover{
+
+.but .villa,
+.but .villa:hover {
     margin-right: 10px;
     background-color: black;
-    color:white
+    color: white
 }
+
 .but .house,
-.but .house:hover{
+.but .house:hover {
     margin-right: 10px;
     background-color: black;
-    color:white
+    color: white
 }
-.imge{
+
+.imge {
     margin-top: 100px;
 }
-.pics{
+
+.pics {
     display: flex;
     flex-wrap: wrap;
     margin-left: 50px;
     gap: 10px;
     border: 0px;
-    
+
 }
-.img-top{
+
+.img-top {
     margin: 20px;
-    
+
 }
-.card-img-top{
+
+.card-img-top {
     border-radius: 20px;
 }
-.card-villa{
+
+.card-villa {
     background-color: rgb(250, 198, 177);
     text-align: start;
     padding: 8px;
     border-radius: 3px;
 }
-.price{
+
+.price {
     margin-left: 150px;
     font-weight: bold;
     color: #ff5f1f;
-   
+
 }
-.text{
+
+.text {
     margin-top: 20px;
     font-weight: bold;
 }
-.num{
+
+.num {
     font-weight: bold;
     margin-right: 20px;
 }
-.visit{
+
+.visit {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
-    
+
 }
-.sch{
+
+.sch {
     background-color: black;
     color: white;
     padding: 10px;
@@ -110,9 +133,27 @@ body{
     padding-right: 30px;
     border-radius: 20px;
 }
+
+.pagination .page-link {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.pagination .page-link:hover {
+    background-color: #ff4f00;
+    color: white;
+}
+
+.pagination .active .page-link {
+    background-color: #ff4f00 !important;
+    color: white !important;
+    border: none;
+}
+
 footer {
-      margin-top: 140px;
-      padding: 20px 0;
-      background: black;
-      color:white;
+    margin-top: 140px;
+    padding: 20px 0;
+    background: black;
+    color: white;
 }
